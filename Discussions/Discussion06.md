@@ -24,14 +24,14 @@
 	-Azure provides high-availability features for the VMs, but not necessarily for SQL Server running on the VM. It is possible for the VM to be online but the SQL Server instance to be offline, unhealthy, or both. Additionally, it is possible for the VM to unavailable due to hardware failure or software upgrades. Therefore, a practiced HADR strategy should be considered.
 1.	What are six SQL Server features that are not currently supported in SQL Database (according to the book)?
   
-	- **SQL Server features that are not currently supported in SQL Database are: **
+	- SQL Server features that are not currently supported in SQL Database are:
     -Windows authentication.
     -FILESTREAM data.
     -Database mirroring.
     -Extended stored procedures.
     -SQL Server Agent/Jobs.
     -SQL Server Reporting Services (SSRS) and SQL Server Integration Services (SSIS) are not supported. Alternatively, run a SQL Server on-premises or in an Azure VM and connect to a SQL database.
-    - **T-SQL features: **
+    - T-SQL features:
     -USE statement is not supported. To change databases, a new connection must be established.
     -Common language runtime (CLR).
     -Cross-database queries using three or four part names.
