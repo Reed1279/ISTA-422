@@ -126,6 +126,6 @@ namespace billing_dotnet_invoice_api
     }
 }
 ```
-10. Access the Azure Resource Manager samples on Github. Search for a quickstart template that will allow you to set up a free SQL Database for a web application. This template has four files. One file is a markdown file. What is the type of the other three files? 
+9. Access the Azure Resource Manager samples on Github. Search for a quickstart template that will allow you to set up a free SQL Database for a web application. This template has four files. One file is a markdown file. What is the type of the other three files? 
  
 	-The other three files are .json files.
